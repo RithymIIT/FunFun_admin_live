@@ -408,7 +408,7 @@ EditTermsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefin
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/indiits/Documents/Projects/FunFun/new/new-admin/src/main.ts */"zUnb");
+module.exports = __webpack_require__(/*! /home/indiit/Downloads/FunFun/new/new-admin/src/main.ts */"zUnb");
 
 
 /***/ }),
@@ -1983,6 +1983,9 @@ class UserListComponent {
         };
         this.apiService.user_delete(dict).subscribe((response) => {
             this.spinnerService.hide();
+            this.apiService.delete_point(dict).subscribe((response) => {
+                console.log(response);
+            });
             this.getCustomersListing();
             this.toastr.success(response.msg);
         });
@@ -4882,6 +4885,9 @@ class ApiService {
         return this.http.post('api/v1/auth/delete_level', data);
     }
     delete_points(data) {
+        return this.http.post('api/v1/auth/delete_points', data);
+    }
+    delete_point(data) {
         return this.http.post('api/v1/auth/delete_points', data);
     }
     getAllInterests() {

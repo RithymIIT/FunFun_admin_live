@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/indiits/Documents/Projects/FunFun/new/new-admin/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /home/indiit/Downloads/FunFun/new/new-admin/src/polyfills.ts */"hN/g");
 
 
 /***/ }),
