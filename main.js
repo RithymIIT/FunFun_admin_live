@@ -408,7 +408,7 @@ EditTermsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefin
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/indiit/Downloads/FunFun/new/new-admin/src/main.ts */"zUnb");
+module.exports = __webpack_require__(/*! /home/indiit/Documents/Indiit Projects/FunFun/new/new-admin/src/main.ts */"zUnb");
 
 
 /***/ }),
@@ -1109,7 +1109,7 @@ class AddCustomerComponent {
         const data = {
             userid: this.udata._id,
             username: this.udata.username,
-            total_points: 250,
+            total_points: 1000,
             given_points: 0,
             recived_points: 0,
             level: 1,
